@@ -1,0 +1,11 @@
+CREATE TABLE laptop_details(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   price            INT     NOT NULL,
+   ram       TEXT,
+   processor        TEXT,
+   battery_backup  INT     NOT NULL
+);
+
+
+insert into laptop_details (id,name,price,ram,processor,battery_backup) values (1,'lenovo',800, '8GB','2.2',8);
